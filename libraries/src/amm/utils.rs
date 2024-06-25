@@ -5,7 +5,7 @@ use common::rpc;
 use solana_client::rpc_client::RpcClient;
 use solana_sdk::pubkey::Pubkey;
 
-#[derive(Clone, Copy, Debug)]
+#[derive(Clone, Copy, Debug, Default)]
 pub struct AmmKeys {
     pub amm_pool: Pubkey,
     pub amm_coin_mint: Pubkey,
