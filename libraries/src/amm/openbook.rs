@@ -24,7 +24,7 @@ use std::{
     thread, time,
 };
 
-#[derive(Debug)]
+#[derive(Debug, Default)]
 pub struct MarketPubkeys {
     pub market: Box<Pubkey>,
     pub req_q: Box<Pubkey>,
