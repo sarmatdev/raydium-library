@@ -286,7 +286,7 @@ fn withdraw_exact_amounts(
     Ok((pc_amount, coin_amount))
 }
 
-fn swap_exact_amount(
+pub fn swap_exact_amount(
     pc_vault_amount: u64,
     coin_vault_amount: u64,
     swap_fee_numerator: u64,
