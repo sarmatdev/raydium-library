@@ -4,16 +4,16 @@ version = "0.3.0"
 edition = "2018"
 
 [dependencies]
-anchor-client = "0.29.0"
-anchor-lang = "0.29.0"
-raydium-amm-v3 = { git = "https://github.com/raydium-io/raydium-clmm", features = [
+anchor-client = "0.30.0"
+anchor-lang = "0.30.0"
+raydium-amm-v3 = { git = "https://github.com/sarmatdev/raydium-clmm", features = [
     "no-entrypoint",
     "client",
 ] }
 serum_dex = { version = "0.5.10", git = "https://github.com/raydium-io/openbook-dex", default-features = false, features = [
     "client",
 ] }
-raydium_amm = { git = "https://github.com/raydium-io/raydium-amm", default-features = false, features = [
+raydium_amm = { git = "https://github.com/sarmatdev/raydium-amm", default-features = false, features = [
     "client",
 ] }
 spl-token = { version = "4.0.0", features = ["no-entrypoint"] }
@@ -23,11 +23,11 @@ spl-associated-token-account = { version = "2.2.0", features = [
 mpl-token-metadata = { version = "^1.11.0", features = ["no-entrypoint"] }
 spl-token-2022 = { version = "0.9.0", features = ["no-entrypoint"] }
 spl-memo = "4.0.0"
-solana-program = "<1.17.0"
-solana-client = "<1.17.0"
-solana-sdk = "<1.17.0"
-solana-account-decoder = "<1.17.0"
-solana-transaction-status = "<1.17.0"
+solana-program = "1.18.17"
+solana-client = "1.18.17"
+solana-sdk = "1.18.17"
+solana-account-decoder = "1.18.17"
+solana-transaction-status = "1.18.17"
 anyhow = "1.0.53"
 rand = "0.7.3"
 bytemuck = { version = "1.7.3" }
