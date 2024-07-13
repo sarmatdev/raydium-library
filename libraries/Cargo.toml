@@ -23,11 +23,11 @@ spl-associated-token-account = { version = "2.2.0", features = [
 mpl-token-metadata = { version = "^1.11.0", features = ["no-entrypoint"] }
 spl-token-2022 = { version = "0.9.0", features = ["no-entrypoint"] }
 spl-memo = "4.0.0"
-solana-program = "1.18.17"
-solana-client = "1.18.17"
-solana-sdk = "1.18.17"
-solana-account-decoder = "1.18.17"
-solana-transaction-status = "1.18.17"
+solana-program = "1.18.18"
+solana-client = "1.18.18"
+solana-sdk = "1.18.18"
+solana-account-decoder = "1.18.18"
+solana-transaction-status = "1.18.18"
 anyhow = "1.0.53"
 rand = "0.7.3"
 bytemuck = { version = "1.7.3" }
